@@ -1,0 +1,30 @@
+.bio-image
+{
+    text-align:center;
+}
+.bio-image img{
+    border-radius:50%;
+}
+@font-face {
+    font-family: farsi;
+    src: url("../font/IRANSansWeb.ttf");
+}
+label{
+    font-size: 14px;
+    font-family: farsi;
+}
+
+input[type=text], input[type=password] {
+    /*height: 44px;*/
+    font-size: 16px;
+    font-family: farsi;
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 3px 8px;
+    /*border-radius: 5px;*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
